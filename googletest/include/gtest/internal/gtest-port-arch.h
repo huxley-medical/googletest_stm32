@@ -113,6 +113,8 @@
 #define GTEST_OS_XTENSA 1
 #elif defined(__hexagon__)
 #define GTEST_OS_QURT 1
+#elif defined OS_NONE
+#define GTEST_OS_NONE 1
 #endif  // __CYGWIN__
 
 #endif  // GOOGLETEST_INCLUDE_GTEST_INTERNAL_GTEST_PORT_ARCH_H_
